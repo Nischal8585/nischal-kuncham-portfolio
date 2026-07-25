@@ -38,7 +38,7 @@ export const AIAssistantWidget: React.FC = () => {
     }
 
     if (q.includes('cgpa') || q.includes('education') || q.includes('srm') || q.includes('college') || q.includes('university')) {
-      return `Nischal graduated with a B.Tech in Computer Science Engineering from SRM University AP (2022–2026) with a CGPA of 7.52. Previously, he scored 87% in Intermediate MPC at Sri Chaitanya Institutions.`;
+      return `Nischal graduated with a B.Tech in Computer Science Engineering from SRM University AP (2022–2026) with a CGPA of 7.63. Previously, he scored 87% in Intermediate MPC at Sri Chaitanya Institutions.`;
     }
 
     if (q.includes('intern') || q.includes('experience') || q.includes('edunet') || q.includes('work')) {
@@ -71,7 +71,7 @@ export const AIAssistantWidget: React.FC = () => {
 4. Shortly (Full-Stack URL Shortener & QR Studio - In Progress)`;
     }
 
-    return `Nischal Kuncham is a 2026 CS graduate from SRM University AP specializing in Full-Stack Web Development (React/Node.js) and Healthcare Machine Learning. Feel free to ask about his projects, skills, CGPA (7.52), or internship experience!`;
+    return `Nischal Kuncham is a 2026 CS graduate from SRM University AP specializing in Full-Stack Web Development (React/Node.js) and Healthcare Machine Learning. Feel free to ask about his projects, skills, CGPA (7.63), or internship experience!`;
   };
 
   const handleSend = (e: React.FormEvent) => {
